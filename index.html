@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="/assets/styles/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="instructions">
+			<p>The 'X' player will move first.</p>
+		</div>
+		<div class="wins">
+			<div class="playerx">
+				<p>X Wins: <span class="win-count playerX-wins"></span></p>
+			</div>
+			<div class="playero">
+				<p>O Wins: <span class="win-count playerO-wins"></span></p>
+			</div>
+		</div>
+		<div class="actions">
+			<button class="reset">Rest Scores</button>
+			<button class="new">New Game</button>
+		</div>
+		<div class="grid">
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+		</div>
+		<div class="messages"></div>
+	</div>
+	<script src="/assets/js/player.js"></script>
+	<script src="/assets/js/game.js"></script>
+	<script src="/assets/js/app.js"></script>
+</body>
+</html>
